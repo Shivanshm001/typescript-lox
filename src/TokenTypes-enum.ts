@@ -93,7 +93,7 @@ enum TokenPair {
   THIS = "this",
   SUPER = "super",
   CLASS = "class",
-  FUNCTION = "func",
+  FUNC = "func",
 
   FOR = "for",
   NIL = "nil",

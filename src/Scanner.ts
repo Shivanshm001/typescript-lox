@@ -1,7 +1,8 @@
 import { Token } from "./Token";
 import { TokenType, TokenPair } from "./TokenTypes-enum";
 import LoxError from "./Error";
-
+import RESERVED_WORDS from './Reserved-words';
+RESERVED_WORDS
 const errorHandler = new LoxError();
 
 export class Scanner {
